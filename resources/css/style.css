@@ -1,3 +1,6 @@
+body, html{
+    width: 100%;
+}
 
 header{display: flex;
     height: 64px;
@@ -69,4 +72,61 @@ section.start button{
 }
 
 section.practicing{
-    background-color: white;}
+    background-color: white;
+    display: flex;
+    align-content: center;
+    width: 100%;
+
+}
+.practicing .left{
+    flex: 2;
+}
+.practicing img{
+    width: 90%;
+    height: auto;
+    margin-top: 32px;
+    margin-left: 24px;
+    margin-bottom: 32px;
+    margin-right: 24px;
+    
+  
+  }
+    section.practicing h1{
+        color: rgb(62, 62, 62);
+        font-size: 50px;
+        margin-top: auto;
+        margin-bottom: 24px;
+        margin-left: 24px;
+    
+    
+    }
+        
+    section.practicing p{
+        color: rgb(67, 66, 66);
+        font-size: 30px;
+        margin-top: auto;
+        margin-left: 24px;
+        
+    }
+    section.practicing span{
+        margin-left: 24px;
+        margin-bottom: 32px;
+    }
+
+    .practicing .right{
+        flex: 1;
+        
+    }
+    
+    .practicing .right .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 3px solid black;
+            }
+    .practicing .right .cards image{
+        width: 35%;
+        height: auto;
+    }
+    
+  
