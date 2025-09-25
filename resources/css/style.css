@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+   
+}
 header{
     display: flex;
     height: 64px;
@@ -10,6 +14,7 @@ header img{
 }
 span#Colmar{
     color: rgb(70, 70, 70);
+    text-align: center;
 }
 span#Academy{
     color: rgb(130, 130, 130);
@@ -33,12 +38,14 @@ header p{
   margin-top: 32px;
   margin-left: 24px;
   margin-bottom: 32px;
-  margin-right: 24px;
+margin-right: 24px;
   
 
 }
-.start.content{
+.content{
     align-content: center;
+    text-align: left;
+    padding-left: 24px;
    
 }
 .start h1{
@@ -145,4 +152,46 @@ padding-right: 24px;
   
   .practicing .right .cards:last-child {
   background-color: #716f6f; /* light gray */
+  }
+  
+
+  .page2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    background-color: #c5c2c2;
+  }
+.page2 h1{
+    color: black;
+    text-align: center;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    
+}
+.jobs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: flex-start;
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-bottom: 32px;
+}
+
+
+  .postcard {
+    display: flex;
+   flex: 1 1 calc(33.333% - 32px); /* 3 per row accounting for gap */
+  flex-direction: column;
+  text-align: center;
+  box-sizing: border-box;
+  min-width: 0;
+  background-color: white;
+  
+}
+
+.info {
+    text-align: left;
+    padding-left: 16px;
+    
 }
