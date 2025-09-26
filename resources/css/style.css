@@ -140,7 +140,10 @@ padding-right: 1.5rem;
         align-items: center;
         display: flex;
         justify-content: center;
-        flex-direction: row; }
+        flex-direction: row;
+    padding-right: 10px;
+margin-left: 1px; 
+margin-right: 1px;}
     .practicing .right .cards .text{
         display: flex;
                 flex-wrap: wrap;
@@ -213,16 +216,15 @@ flex-direction: column;
     display: flex;
     flex-direction: row;
     padding-left: 24px;
-    padding-right: 24px;
+   margin-right: 1px;
 }
 
 .thesis-l{
     display: flex;
     flex-direction: column;
-    flex:3;
+    flex:0 1 60%;
     min-width: 0;
     padding-right: 24px;
-
 }
 
 .thesis-l h2{
@@ -239,8 +241,7 @@ flex-direction: column;
 .thesis-r{
     display: flex;
     flex-direction: column;
-    border: 5px solid orange;
-    flex:2;
+  flex:0 1 40%;
     min-width: 0;
 
 
@@ -282,3 +283,8 @@ flex-direction: column;
 }
 
 
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 10px 30px 24px;
+}
