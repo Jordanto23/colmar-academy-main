@@ -39,6 +39,9 @@ header ul {
 header li a {
     color: gray;
 }
+nav{
+    display: none;
+}
 
 .start {
     background-color: rgb(210, 206, 206);
@@ -325,9 +328,185 @@ footer a {
 
 @media (max-width: 440px){
   /* CSS rules for iphone 16 pro */
-body {
-    background-color:blue;
-}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 
+html, body {
+  width: 100%;
+  overflow-x: hidden; /* prevent horizontal scrolling */
+}
+
+.branding{
+    display: none;
+}
+header ul{
+    display: none;
+}
+    
+    
+
+nav{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   align-items: center;
+  column-gap: 30%;
+}
+
+.start {
+   background-color: rgb(210, 206, 206);
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+.start img{width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.start h1 {
+    margin-bottom: 32px;
+
+
+}
+
+.start h4 {
+    margin-bottom: 24px;
+
+}
+
+.left{
+    display: none;
+}
+
+
+
+
+.practicing .right {
+    flex: 0 1 100%;
+    padding-top: 0;
+   
+}
+
+
+.page2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+    background-color:white;
+}
+
+.page2 h1 {
+    color: black;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+.jobs {
+    flex-direction: column;
+    padding-left: 16px;
+    padding-right: 24px;
+    padding-bottom: 0%;
+    gap:.5rem;
+    margin-bottom: 32px;
+    
+}
+
+
+.postcard {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    background-color: gray;
+    padding-bottom: 30px;
+    gap: .5rem;
+}
+
+.postcard img{
+    display: none;
+}
+
+.info {
+    text-align: center;
+    padding: auto;
+    justify-content: center;
+    padding: 15px;
+}
+
+.info h4{
+    display: none;
+}
+.info p{
+    display: none;
+}
+
+
+.thesis {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.thesis h1 {
+    padding-top: 32px;
+    padding-bottom: 16px;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.thesis-content {
+    padding-left: 0px;
+    margin-right: 0px;
+}
+
+.thesis-l {
+    display: flex;
+    flex-direction: column;
+    flex:0 0 100%;
+    padding-right: 0px;
+}
+
+.thesis-l h2 {
+    display: none;
+}
+
+.thesis-l p {
+    display: none;
+}
+
+.thesis-r {
+    display: none;
+}
+
+footer {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 10px 30px 24px;
+}
+footer span{
+    padding-bottom: 10px;
+}
+
+footer a {
+    display: none;
+}
+
+}
