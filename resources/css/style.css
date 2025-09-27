@@ -1,69 +1,86 @@
-body{
+body {
     margin: 0;
-   
+
 }
-header{
+
+header {
     display: flex;
     height: 4rem;
+    justify-content: space-between;
+}
+
+.branding {
+    display: flex;
+    flex-direction: row;
     align-items: center;
 }
 
-header img{
+header img {
     padding-left: 1.5rem;
 
 }
-span#Colmar{
+
+span#Colmar {
     color: rgb(70, 70, 70);
-    text-align: center;
+
 }
-span#Academy{
+
+span#Academy {
     color: rgb(130, 130, 130);
 }
-header p{
-    font-size: 1.25rem;
-    color: grey;
-   margin-left: auto;
-   margin-right: 24px;
-}
-.start{
-    background-color:rgb(210, 206, 206);
-      display: flex;
-        width: 100%;
-        box-sizing: border-box;
+
+header ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    padding-right: 24px;
 }
 
-.start img{
- width: 60%;
-  height: auto;
-  margin-top: 2rem;
-  margin-left: 1.5rem;
-  margin-bottom: 2rem;
-margin-right: 1.5rem;
-  
+header li a {
+    color: gray;
+}
+
+.start {
+    background-color: rgb(210, 206, 206);
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.start img {
+    width: 60%;
+    height: auto;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+    margin-right: 1.5rem;
+
 
 }
-.content{
+
+.content {
     align-content: center;
     text-align: left;
     padding-left: 1.5rem;
-   
+
 }
-.start h1{
+
+.start h1 {
     color: rgb(62, 62, 62);
     font-size: 3.125rem;
-    
+
 
 
 }
-    
-.start h4{
+
+.start h4 {
     color: rgb(67, 66, 66);
     font-size: 1.875rem;
     ;
-    
+
 }
 
-.start button{
+.start button {
     background-color: rgb(52, 51, 51);
     color: white;
     font-size: 1.25rem;
@@ -79,99 +96,109 @@ margin-right: 1.5rem;
     padding-right: 2.5rem;
 }
 
- .practicing{
+.practicing {
     background-color: white;
     display: flex;
     width: 100%;
 }
-.practicing .left{
-flex:0 1 60%;
-padding-right: 1.5rem;
+
+.practicing .left {
+    flex: 0 1 60%;
+    padding-right: 1.5rem;
 }
-.left img{
+
+.left img {
     width: 100%;
     height: auto;
     padding-top: 2rem;
-   padding-left: 1.5rem;
+    padding-left: 1.5rem;
     padding-bottom: 2rem;
     padding-right: 1.5rem;
-    
-  
-  }
-    .practicing h1{
-        color: rgb(62, 62, 62);
-        font-size: 3.125rem;
-        margin-left: 1.5rem;
-        margin-top: auto;
 
-    }
-        
-    .practicing p{
-        color: rgb(67, 66, 66);
-        font-size: 1.875rem;
-        margin-left: 1.5rem;
-        margin-top: 1.5rem;
-        
-    }
-    .practicing span{
-        margin-left: 1.5rem;
-        margin-bottom: 1.5rem;
-        
-    }
 
-    .practicing .right{
-        flex: 0 1 40%;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        padding-top: 2rem;
-    }
+}
 
-    .practicing .right .cards img{
-        width: 35%;
-        height: auto;
-       
-    }
-    
-    .practicing .right .cards{
-        border: 1px solid rgb(84, 82, 82);
-        padding-left: 1rem;
-        padding-bottom: 1rem;
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
+.practicing h1 {
+    color: rgb(62, 62, 62);
+    font-size: 3.125rem;
+    margin-left: 1.5rem;
+    margin-top: auto;
+
+}
+
+.practicing p {
+    color: rgb(67, 66, 66);
+    font-size: 1.875rem;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+
+}
+
+.practicing span {
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.practicing .right {
+    flex: 0 1 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 2rem;
+}
+
+.practicing .right .cards img {
+    width: 35%;
+    height: auto;
+
+}
+
+.practicing .right .cards {
+    border: 1px solid rgb(84, 82, 82);
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
     padding-right: 10px;
-margin-left: 1px; 
-margin-right: 1px;}
-    .practicing .right .cards .text{
-        display: flex;
-                flex-wrap: wrap;
-                flex-direction: column;
-                min-width: 0;
-                flex: 1;
-               text-align: center;
-               padding-bottom: .5rem;}
-  
-  .practicing .right .cards:last-child {
-  background-color: #716f6f; /* light gray */
-  }
-  
+    margin-left: 1px;
+    margin-right: 1px;
+}
 
-  .page2{
+.practicing .right .cards .text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-width: 0;
+    flex: 1;
+    text-align: center;
+    padding-bottom: .5rem;
+}
+
+.practicing .right .cards:last-child {
+    background-color: #716f6f;
+    /* light gray */
+}
+
+
+.page2 {
     display: flex;
     flex-direction: column;
     margin-top: 2rem;
     background-color: #c5c2c2;
-  }
-.page2 h1{
+}
+
+.page2 h1 {
     color: black;
     text-align: center;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-    
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
 }
-.jobs{
+
+.jobs {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
@@ -182,109 +209,117 @@ margin-right: 1px;}
 }
 
 
-  .postcard {
+.postcard {
     display: flex;
-   flex: 1 1 calc(33.333% - 32px); /* 3 per row accounting for gap */
-  flex-direction: column;
-  text-align: center;
-  box-sizing: border-box;
-  min-width: 0;
-  background-color: white;
-  
+    flex: 1 1 calc(33.333% - 32px);
+    /* 3 per row accounting for gap */
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+    min-width: 0;
+    background-color: white;
+
 }
 
 .info {
     text-align: left;
     padding-left: 1rem;
-    
+
 }
 
-.thesis{
+.thesis {
     display: flex;
-flex-direction: column;
+    flex-direction: column;
     width: 100%;
 }
 
 
 
-.thesis h1{
+.thesis h1 {
     text-align: center;
     font-size: 3rem;
 }
 
-.thesis-content{
+.thesis-content {
     display: flex;
     flex-direction: row;
     padding-left: 24px;
-   margin-right: 1px;
+    margin-right: 1px;
 }
 
-.thesis-l{
+.thesis-l {
     display: flex;
     flex-direction: column;
-    flex:0 1 60%;
+    flex: 0 1 60%;
     min-width: 0;
     padding-right: 24px;
 }
 
-.thesis-l h2{
+.thesis-l h2 {
     margin-bottom: 8px;
     margin-top: 24px;
-    
+
 
 }
 
-.thesis-l p{
- margin-top: 0;
+.thesis-l p {
+    margin-top: 0;
 }
 
-.thesis-r{
+.thesis-r {
     display: flex;
     flex-direction: column;
-  flex:0 1 40%;
+    flex: 0 1 40%;
     min-width: 0;
 
 
 }
 
-.tickets{
+.tickets {
     display: flex;
-    
+
 
 }
 
-.ticket-1{
+.ticket-1 {
     display: flex;
     flex-direction: row;
     background-color: hwb(0 72% 26%);
-   
+
 }
 
-.ticket-1 img{
+.ticket-1 img {
     width: 35%;
     padding: 16px
 }
 
 
 
-.ticket-2{
+.ticket-2 {
     display: flex;
     flex-direction: row;
-     
-     
+
+
 }
 
-.ticket-2 img{
+.ticket-2 img {
     width: 35%;
     padding: 16px
 }
+
 .writing {
     padding-right: 30px;
 }
 
 
-footer{
+footer {
     display: flex;
     justify-content: space-between;
     padding: 16px 10px 30px 24px;
 }
+
+footer a {
+    color: #716f6f;
+
+}
+
