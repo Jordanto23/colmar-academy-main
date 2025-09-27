@@ -323,3 +323,11 @@ footer a {
 
 }
 
+@media (max-width: 440px){
+  /* CSS rules for iphone 16 pro */
+body {
+    background-color:blue;
+}
+}
+
+
